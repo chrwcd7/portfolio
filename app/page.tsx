@@ -8,7 +8,7 @@ import profileImg from '../public/profile.jpeg';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gray-900 text-white">
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen px-8 pt-8 pb-4 gap-16 sm:px-20 font-[family-name:var(--font-geist-sans)] bg-gray-900 text-white">
       <header className="flex flex-col gap-4 items-center text-lg max-w-2xl">
         <Image
           className="rounded-full w-36"
@@ -16,13 +16,13 @@ export default function Home() {
           alt="Profile Picture"
           priority
         />
-        <h1 className="text-4xl font-bold flex gap-4">
-          Christos Papoutsakis
+        <div className="flex flex-row gap-4 items-center">
+          <h1 className="text-4xl font-bold">Christos Papoutsakis</h1>
           <ContactLinks />
-        </h1>
+        </div>
         <p>
-          Hi, I&apos;m Christos Papoutsakis, a software engineer from Athens,
-          Greece.
+          Hi, I&apos;m Christos Papoutsakis, a software engineer based in
+          Athens, Greece.
         </p>
         <p>
           I&apos;m the holder of an{' '}
@@ -34,8 +34,8 @@ export default function Home() {
           professional work experience as a software engineer.
         </p>
         <p>
-          Having worked abroad in Sophia Antipolis, France enabled me to
-          experience cultural diversity as well as enhance my collaboration and
+          Having worked in Sophia Antipolis, France enabled me to experience
+          cultural diversity as well as enhance my collaboration and
           communication skills. Currently a freelancer, developing web
           applications using modern technologies and frameworks such as{' '}
           <span className="font-bold">TypeScript, React & Next.js</span>.
@@ -135,7 +135,7 @@ export default function Home() {
             <li>
               <Link
                 href="https://theatroexarchis.gr"
-                className="text-blue-400 hover:underline"
+                className="text-blue-300 hover:underline"
                 target="_blank"
               >
                 Exarchis Theater
@@ -152,7 +152,7 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-blue-400 hover:underline">
+              <Link href="#" className="text-blue-300 hover:underline">
                 {' '}
                 Portfolio
               </Link>{' '}
@@ -170,14 +170,13 @@ export default function Home() {
         </section>
         <section className="flex flex-col items-start">
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-          <p className="mb-2">
-            Feel free to reach out to me via these channels
-          </p>
+          <p className="mb-2">You can reach out to me via these channels</p>
           <ContactLinks showLabel />
         </section>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        &copy; 2025 Christos Papoutsakis
+      <footer className="row-start-3 flex flex-col flex-wrap items-center justify-center">
+        <p>&copy; 2025 Christos Papoutsakis.</p>
+        <p>All rights reserved.</p>
       </footer>
     </div>
   );
