@@ -17,7 +17,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faLinkedin} className="w-4 h-4" />
+        <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'LinkedIn'}
       </Link>
       <Link
@@ -26,7 +26,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faGithub} className="w-4 h-4" />
+        <FontAwesomeIcon icon={faGithub} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'GitHub'}
       </Link>
       <Link
@@ -35,7 +35,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faEnvelope} className="w-4 h-4" />
+        <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'Email'}
       </Link>
     </div>
