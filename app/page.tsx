@@ -136,7 +136,7 @@ export default function Home() {
             <li>
               <Link
                 href="https://theatroexarchis.gr"
-                className="text-blue-300 hover:underline"
+                className="text-blue-300 font-bold hover:underline"
                 target="_blank"
               >
                 Exarchis Theater
@@ -148,12 +148,16 @@ export default function Home() {
                 href="https://github.com/chrwcd7/exarchis-theater"
                 className="ml-4"
                 target="_blank"
+                aria-label='GitHub Repository for "Exarchis Theater"'
               >
                 <FontAwesomeIcon icon={faGithub} className="inline w-4 h-4" />
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-blue-300 hover:underline">
+              <Link
+                href="#"
+                className="text-blue-300 font-bold hover:underline"
+              >
                 {' '}
                 Portfolio
               </Link>{' '}
@@ -163,6 +167,7 @@ export default function Home() {
                 href="https://github.com/chrwcd7/portfolio"
                 className="ml-4"
                 target="_blank"
+                aria-label='GitHub Repository for "Portfolio"'
               >
                 <FontAwesomeIcon icon={faGithub} className="inline w-4 h-4" />
               </Link>

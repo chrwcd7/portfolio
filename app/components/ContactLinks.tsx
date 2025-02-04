@@ -16,6 +16,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         href="https://linkedin.com/in/chris-pap"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'LinkedIn'}
@@ -25,6 +26,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         href="https://github.com/chrwcd7"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="GitHub"
       >
         <FontAwesomeIcon icon={faGithub} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'GitHub'}
@@ -34,6 +36,7 @@ const ContactLinks: React.FC<ContactLinksProps> = ({ showLabel = false }) => {
         href="mailto:chrispapoutsakis@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Email"
       >
         <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6 sm:w-4 sm:h-4" />
         {showLabel && 'Email'}
