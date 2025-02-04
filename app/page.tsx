@@ -14,6 +14,7 @@ export default function Home() {
           className="rounded-full w-36"
           src={profileImg}
           alt="Profile Picture"
+          sizes="144px"
           priority
         />
         <div className="flex flex-row gap-4 items-center">
