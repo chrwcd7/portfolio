@@ -122,7 +122,7 @@ export default function Home() {
             <li>
               <span className="font-bold">Alten</span> - Software Engineer -
               Sophia Antipolis, France (Oct 2018 - May 2019)
-              <p className="text-gray-400">
+              <p className="text-gray-400 text-sm">
                 Created web apps using{' '}
                 <span className="font-bold">TypeScript & Angular</span> in the
                 company&apos;s labs for internal use by its own employees.
