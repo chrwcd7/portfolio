@@ -68,7 +68,7 @@ export default function Home() {
               Athens, Greece (Dec 2021 - Aug 2024)
               <div className="flex flex-col gap-2 text-gray-400 text-sm">
                 <p>
-                  Developed web apps in{' '}
+                  Built web apps in{' '}
                   <span className="font-bold">TypeScript, React & Next.js</span>{' '}
                   using the companies wide suite of products such as XM Cloud,
                   Content Hub and CDP/ Personalize.
