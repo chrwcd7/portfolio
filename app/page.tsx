@@ -70,8 +70,8 @@ export default function Home() {
                 <p>
                   Built web apps in{' '}
                   <span className="font-bold">TypeScript, React & Next.js</span>{' '}
-                  using the companies wide suite of products such as XM Cloud,
-                  Content Hub and CDP/ Personalize.
+                  using the company&apos;s wide suite of products such as XM
+                  Cloud, Content Hub and CDP/ Personalize.
                 </p>
                 <p>
                   Created a mobile app in{' '}
