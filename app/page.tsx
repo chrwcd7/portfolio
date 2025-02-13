@@ -21,30 +21,31 @@ export default function Home() {
           <h1 className="text-4xl font-bold">Christos Papoutsakis</h1>
           <ContactLinks />
         </div>
-        <p>
+        <p className="self-start">
           Hi, I&apos;m Christos Papoutsakis, a software engineer based in
           Athens, Greece.
         </p>
         <p>
-          I&apos;m the holder of an{' '}
+          I hold an{' '}
           <span className="font-bold">
             MEng in Electrical & Computer Engineering
           </span>{' '}
           (5-year degree) from National Technical University of Athens (NTUA)
-          and have more than <span className="font-bold">7 years</span> of
-          professional work experience as a software engineer.
+          and have over <span className="font-bold">7 years</span> of
+          professional experience, including international work in Sophia
+          Antipolis, France.
         </p>
         <p>
-          Having worked in Sophia Antipolis, France enabled me to experience
-          cultural diversity as well as enhance my collaboration and
-          communication skills. Currently a freelancer, developing web
-          applications using modern technologies and frameworks such as{' '}
+          My time working in France not only exposed me to cultural diversity
+          but also significantly enhanced my collaboration and communication
+          skills in an international setting. Currently, as a freelancer, I
+          specialize in building web applications with modern technologies and
+          frameworks such as{' '}
           <span className="font-bold">TypeScript, React & Next.js</span>.
         </p>
         <p>
-          Always on the lookout for new and promising challenges. If you have
-          any interesting opportunities you would like to discuss with me,
-          please feel free to reach out!
+          I’m always eager to take on new and exciting challenges. If you have
+          an interesting opportunity, feel free to get in touch!
         </p>
       </header>
       <main className="flex flex-col gap-8 row-start-2 max-w-2xl">
