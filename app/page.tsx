@@ -38,9 +38,9 @@ export default function Home() {
         <p>
           My time working in France not only exposed me to cultural diversity
           but also significantly enhanced my collaboration and communication
-          skills in an international setting. Currently, as a freelancer, I
-          specialize in building web applications with modern technologies and
-          frameworks such as{' '}
+          skills in an international setting. Currently, as a Senior Software
+          Engineer at HFM, I specialize in building web applications with modern
+          technologies and frameworks such as{' '}
           <span className="font-bold">TypeScript, React & Next.js</span>.
         </p>
         <p>
@@ -53,10 +53,35 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
           <ul className="list-inside list-disc flex flex-col gap-2 font-[family-name:var(--font-geist-mono)]">
             <li>
+              <span className="font-bold">HFM</span> - Senior Software Engineer
+              - Athens, Greece (Jun 2025 - Present)
+              <div className="flex flex-col gap-2 text-gray-400 text-sm">
+                <p>
+                  Contributing to the company&apos;s client area development
+                  using{' '}
+                  <span className="font-bold">TypeScript, React & Next.js</span>{' '}
+                  by implementing new features.
+                </p>
+                <p>
+                  Led the frontend development of the company&apos;s new loyalty
+                  program, resulting in increased user engagement and customer
+                  retention by providing a seamless and rewarding experience for
+                  customers.
+                </p>
+                <p>
+                  Currently running the frontend development of the
+                  company&apos;s new loyalty marketplace, enabling customers to
+                  easily browse and redeem rewards, which will differentiate the
+                  company from its competitors by providing a unique value
+                  proposition and enhancing the overall customer satisfaction.
+                </p>
+              </div>
+            </li>
+            <li>
               <span className="font-bold">Freelancer</span> - Software Engineer
-              - Athens, Greece (Sep 2024 - Present)
+              - Athens, Greece (Sep 2024 - May 2025)
               <p className="text-gray-400 text-sm">
-                Developing web apps in{' '}
+                Developed web apps in{' '}
                 <span className="font-bold">TypeScript, React & Next.js</span>{' '}
                 for various businesses and individual professionals in
                 industries such as arts, entertainment, education and digital
