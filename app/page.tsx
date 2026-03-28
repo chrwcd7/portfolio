@@ -57,7 +57,7 @@ export default function Home() {
               - Athens, Greece (Jun 2025 - Present)
               <div className="flex flex-col gap-2 text-gray-400 text-sm">
                 <p>
-                  Contributing to the company&apos;s client area development
+                  Contributed to the company&apos;s client area development
                   using{' '}
                   <span className="font-bold">TypeScript, React & Next.js</span>{' '}
                   by implementing new features.
