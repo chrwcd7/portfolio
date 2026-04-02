@@ -31,7 +31,7 @@ export default function Home() {
             MEng in Electrical & Computer Engineering
           </span>{' '}
           (5-year degree) from National Technical University of Athens (NTUA)
-          and have over <span className="font-bold">7 years</span> of
+          and have over <span className="font-bold">8 years</span> of
           professional experience, including international work in Sophia
           Antipolis, France.
         </p>
