@@ -63,17 +63,14 @@ export default function Home() {
                   by implementing new features.
                 </p>
                 <p>
-                  Led the frontend development of the company&apos;s new loyalty
-                  program, resulting in increased user engagement and customer
-                  retention by providing a seamless and rewarding experience for
-                  customers.
+                  Spearheaded the frontend development of a new loyalty program,
+                  driving an increase in user engagement and retention through a
+                  seamless customer experience.
                 </p>
                 <p>
-                  Currently running the frontend development of the
-                  company&apos;s new loyalty marketplace, enabling customers to
-                  easily browse and redeem rewards, which will differentiate the
-                  company from its competitors by providing a unique value
-                  proposition and enhancing the overall customer satisfaction.
+                  Executed the frontend development of loyalty marketplace,
+                  allowing customers to easily browse and redeem rewards,
+                  significantly boosting overall user satisfaction.
                 </p>
               </div>
             </li>
